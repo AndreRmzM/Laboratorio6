@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link href="Bootstrap-CSS/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .current-page {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Dioses del Olimpo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Héroes Griegos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link current-page" href="#">Criaturas Mitológicas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Criaturas Mitológicas</h1>
+        <p>La mitología griega está llena de criaturas fascinantes, algunas amigables, otras peligrosas.</p>
+        <p>Entre las más conocidas están el Minotauro, la Hidra de Lerna y la Esfinge.</p>
+        <p>Estas criaturas desafiaban a los héroes griegos y, a menudo, eran símbolos de caos o guardianes de secretos.</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Minotauro.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Minotauro</h5>
+                        <p class="card-text">El Minotauro era una criatura mitad hombre, mitad toro, que vivía en el laberinto de Creta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Hidra.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Hidra de Lerna</h5>
+                        <p class="card-text">La Hidra era una serpiente gigante con múltiples cabezas que se regeneraban cuando eran cortadas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Esfinge.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Esfinge</h5>
+                        <p class="card-text">La Esfinge era una criatura con cuerpo de león y rostro humano, famosa por sus acertijos mortales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-danger" role="alert">
+            ¡Cuidado! Muchas de estas criaturas eran letales y solo podían ser vencidas con astucia o intervención divina.
+        </div>
+    </div>
+
+    <script src="Bootstrap-JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
